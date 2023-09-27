@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+/* darkmode palette: main:#446A37  secondary:#243010*/
+
+:root {
+    --main-color:#CAD593;
+    --secondary-color:#87A330;
+    --font-color:white;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:var(--font-color);
+    background-color: var(--main-color);
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--secondary-color);
+  position: sticky;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: var(--secondary-color);
+}
+
+
+li a:hover {
+  background-color: whitesmoke;
+}
+
+img {
+    background-color: var(--secondary-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap:6em;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    margin-top: 60px;
+    
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius:15px;
+    background-color: var(--secondary-color);
+    align-items: center;
+
+}
+
+h1 {
+    background-color: var(--secondary-color);
+ 
+}
+
+h3 {
+    background-color: var(--secondary-color);
+}
+
+h5 {
+    background-color: var(--secondary-color);
+    align-self: flex-start;
+}
