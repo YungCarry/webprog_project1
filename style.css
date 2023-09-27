@@ -2,45 +2,44 @@
 /* darkmode palette: main:#446A37  secondary:#243010*/
 
 :root {
-    --main-color:#CAD593;
-    --secondary-color:#87A330;
-    --font-color:white;
+    --main-color: #cad593;
+    --secondary-color: #87a330;
+    --font-color: white;
 }
 
-* {
-    margin:0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    color:var(--font-color);
-    background-color: var(--main-color);
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: var(--font-color);
+    background-color: var(--main-color);
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--secondary-color);
-  position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--secondary-color);
+    position: sticky;
 }
 
 li {
-  float: right;
+    float: right;
 }
 
 li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
-  background-color: var(--secondary-color);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    background-color: var(--secondary-color);
 }
 
-
 li a:hover {
-  background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 
 img {
@@ -50,14 +49,12 @@ img {
 .container {
     display: flex;
     flex-direction: row;
-    gap:6em;
-    flex-wrap:wrap;
+    gap: 6em;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 25vh;
     margin-top: 60px;
-    
-
 }
 
 .card {
@@ -67,15 +64,13 @@ img {
     width: 200px;
     margin: 10px;
     padding: 10px;
-    border-radius:15px;
+    border-radius: 15px;
     background-color: var(--secondary-color);
     align-items: center;
-
 }
 
 h1 {
     background-color: var(--secondary-color);
- 
 }
 
 h3 {
@@ -85,4 +80,12 @@ h3 {
 h5 {
     background-color: var(--secondary-color);
     align-self: flex-start;
+}
+
+.theme-switch-wrapper {
+    background-color: var(--secondary-color);
+}
+
+label {
+    background-color: var(--secondary-color);
 }
