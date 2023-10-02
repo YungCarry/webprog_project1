@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-color: #446a37;
+    --primary-color: #446a37;
     --secondary-color: #243010;
     --font-color: white;
   }
