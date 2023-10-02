@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 /* darkmode palette: main:#446A37  secondary:#243010*/
+/*Ha a rendszer sötét módban van, nem jelenik meg a kaplcsoló, hanem sötét módra vált azutomatikusssan az oldal. */
 
 :root {
   --primary-color: #cad593;
@@ -17,7 +18,11 @@
     --primary-color: #446a37;
     --secondary-color: #243010;
     --font-color: white;
+
   }
+ #switch {
+  display: none;
+ }
 }
 
 * {
